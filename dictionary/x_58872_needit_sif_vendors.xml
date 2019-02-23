@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="SIF_Vendors" max_length="40" name="x_58872_needit_sif_vendors" type="collection">
+        <element attributes="import_attribute_name=ACCT_GROUP,edge_encryption_enabled=true" label="ACCT_GROUP" max_length="40" name="u_acct_group" type="string"/>
+        <element attributes="import_attribute_name=BP_FIRST_NAME,edge_encryption_enabled=true" label="BP_FIRST_NAME" max_length="40" name="u_bp_first_name" type="string"/>
+        <element attributes="import_attribute_name=BP_LAST_NAME,edge_encryption_enabled=true" label="BP_LAST_NAME" max_length="40" name="u_bp_last_name" type="string"/>
+        <element attributes="import_attribute_name=BP_NUMBER" label="BP_NUMBER" max_length="40" name="u_bp_number" type="float"/>
+        <element attributes="import_attribute_name=BP_ORG1,edge_encryption_enabled=true" label="BP_ORG1" max_length="40" name="u_bp_org1" type="string"/>
+        <element attributes="import_attribute_name=BP_ORG2,edge_encryption_enabled=true" label="BP_ORG2" max_length="40" name="u_bp_org2" type="string"/>
+        <element attributes="import_attribute_name=BP_ROLE,edge_encryption_enabled=true" label="BP_ROLE" max_length="40" name="u_bp_role" type="string"/>
+        <element attributes="import_attribute_name=BP_TITLE" label="BP_TITLE" max_length="40" name="u_bp_title" type="integer"/>
+        <element attributes="import_attribute_name=BP_TYPE" label="BP_TYPE" max_length="40" name="u_bp_type" type="integer"/>
+        <element attributes="import_attribute_name=CITY,edge_encryption_enabled=true" label="CITY" max_length="40" name="u_city" type="string"/>
+        <element attributes="import_attribute_name=COMPANY_CODE" label="COMPANY_CODE" max_length="40" name="u_company_code" type="integer"/>
+        <element attributes="import_attribute_name=COUNTRY,edge_encryption_enabled=true" label="COUNTRY" max_length="40" name="u_country" type="string"/>
+        <element attributes="import_attribute_name=CRED_NAME,edge_encryption_enabled=true" label="CRED_NAME" max_length="64" name="u_cred_name" type="string"/>
+        <element attributes="import_attribute_name=RECORD_ID" label="RECORD_ID" max_length="40" name="u_record_id" type="integer"/>
+        <element attributes="import_attribute_name=TRANSACTION_ID,edge_encryption_enabled=true" label="TRANSACTION_ID" max_length="40" name="u_transaction_id" type="string"/>
+        <element attributes="import_attribute_name=VENDOR_NUMBER,edge_encryption_enabled=true" label="VENDOR_NUMBER" max_length="40" name="u_vendor_number" type="string"/>
+    </element>
+</database>
